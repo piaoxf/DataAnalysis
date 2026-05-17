@@ -1,0 +1,14 @@
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+sympy
+networkx
+jupyter
+jupyterlab
+ipykernel
+ipywidgets
+tqdm
