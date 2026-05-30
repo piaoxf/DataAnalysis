@@ -1,0 +1,191 @@
+Prof Uhler: OK, let's reason through it together.
+So first about why there is a trade-off between a type
+I and a type II error.
+OK, so let's draw.
+
+So for example, in our example, right, for a demo mammography,
+we used say a binomial model for the test statistic
+under the null.
+And of course also under the alternative.
+So this looks like a binomial distribution.
+So this is our null distribution.
+Now we introduce this.
+We decide on a significance level.
+So our significance level is say we choose it to be 0.05.
+So that means that if here is our significance level, alpha,
+0.05, then this here will be the probability of actually doing
+a type I error.
+So this here is the type I error.
+
+OK, so now what is the power?
+Well, the power, so we of course don't
+know the alternative, the distribution
+under the alternative.
+But now let's just assume it is something we actually
+reduced the probability of dying due to breast cancer.
+So say our alternative looks something like this.
+Of course, we don't know this, right.
+I'm just playing as if I knew, as if I was nature
+and I actually knew this.
+So this would be the distribution
+under the alternative.
+So now what is the power?
+What is the type II error.
+So the type II error is--
+so OK, what is the power.
+So the power is actually the probability
+of rejecting the null hypothesis when the alternative is true.
+So when the alternative is true, so
+under the alternative distribution, the probability
+that we are rejecting the null, so we
+reject whenever we are on this side.
+So all of this here, this is the power.
+So this here is the power of our hypothesis test.
+And of course, everything on this side here--
+so what is the type II error?
+So the type II error is when the alternative is true,
+that we don't reject the null hypothesis, so
+everything on this side.
+Let me actually draw this like this.
+
+So this here is the type II error.
+
+That's why the power is 1 minus the type II error.
+So we have to type I error.
+That's the probability under the null hypothesis
+to reject the null when the null is true.
+So that's that error.
+The type II error is the probability
+under the alternative.
+So we're in the other distribution
+under the alternative not to reject the null hypothesis
+when the alternative is actually true.
+So now we've drawn everything.
+And so now it should be pretty clear.
+So how do I reduce--
+so this is my significance, this is my cutoff
+for a significance level.
+So how can I reduce the type I error?
+Well, you can reduce it by moving this level here right,
+the significance level.
+I can reduce it by actually moving to significance level
+down.
+That's how I reduce to type I error.
+But of course, you also just directly see
+that if you move this line down, you're
+of course also going to reduce power at the same time.
+So that's why you can really not do both.
+You cannot increase power and at the same time reduce the type I
+error.
+In other words, you cannot at the same time reduce the type
+II error as well as reduce the type I error.
+
+So that's that.
+Now what about the second comment
+that we made, namely that there is
+a trade-off between one-sided and two-sided tests?
+If you're asking that in general the one-sided tests are
+more powerful than two-sided tests,
+meaning that if you're asking, if you really
+care about the one-sided question,
+you should always perform a one-sided test and not
+a two-sided test.
+So let's go through this as well.
+So let's first look at what is the power of a one-sided test.
+I guess we already had this picture over here.
+So I'll just draw this again.
+So let me draw.
+Say this is H, the null hypothesis.
+And then here we have the alternative, so one-sided test,
+so a one-sided test.
+And here say this is my alpha value,
+this is my significance level.
+Up, and I go up.
+And you see that this is all your power, right.
+So your power goes all the way until here.
+So this is the power of a one-sided test.
+Now what happens when you do a two-sided test?
+Well, when you do a two-sided test,
+the significance level has to go down on this side right,
+because I'm going to also cut off on the other side.
+
+So now I'm cutting off here and I'm cutting off here.
+So now what is the power?
+Well, you see that now the power becomes this part here.
+
+Plus, maybe this curve here goes all the way out here.
+Plus I have a little bit on this side of the curve.
+But this area is, of course, tiny.
+In particular, and if you look at this,
+what I lost by doing a two-sided test
+and what I gained, this little bit down here that you
+can hardly see, well of course I'm
+losing much more than I'm gaining.
+Hence, the power went down when I went from a one-sided test
+to a two-sided test.
+Now of course, this depends on the distribution
+under the alternative looking like this.
+And so that's why I'm saying that usually the power goes
+down when you go from a one-sided to a two-sided test.
+Now the question to you is, of course,
+can you come up with a particular example
+and setting where in fact the power might be going up
+when you do a two-sided test as compared to a one-sided test.
+And again, you can either stop the recording here
+or we'll go through this together.
+So there are particular cases.
+That's why in the previous statement
+there is the usually in there.
+So there are particular cases, namely if this is again
+my null hypothesis, the distribution under the null.
+Well, now if my alternative actually
+looks like something like this, something quite strange--
+for example, it is bimodal--
+well, now of course if you have--
+so here is say my one-sided test.
+So my one-sided test, the power is all of this.
+
+Now of course if you do a two-sided test,
+then you're going to lose a little bit here.
+So now a two-sided test, I now have 0.025 as a weight
+under the null on this side.
+So a two-sided test, now the power
+becomes cut off a little bit.
+It becomes all of this here.
+
+So you of course lost a little bit.
+You lost this, lost this part in two-sided test.
+
+But in a two-sided test, what you're going to gain
+is all of this.
+
+So you gained this part in the two-sided test.
+
+So you gained much more than you actually lost.
+But of course, this really just depends
+on the distribution under your alternative
+having a lot of mass on both sides and little mass
+in the middle.
+Now in most applications, well, it's
+not reasonable to assume that the distribution
+under the alternative will look so
+different to the distribution under the null hypothesis.
+And hence, one would argue that this second case here really
+doesn't happen too often.
+And that's why in general the recommendation
+is that whenever you really just care
+about a one-sided question-- so does introducing mammography
+reduce the number of deaths due to breast cancer--
+then you should do a one-sided test.
+Or does introducing some drug to increase
+the lifespan of an individual, then again you
+should do a one-sided test, now of course testing to the right.
+So instead of here, we're always testing to the left,
+whether that probability went down,
+now of course you will just do everything to the right.
+So that case, whenever your question is one-sided,
+whether it is that it becomes smaller
+or that something becomes larger,
+you should always do a one-sided test, not a two-sided test,
+because the one-sided test usually has more power
+than the two-sided test.
